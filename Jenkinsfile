@@ -6,7 +6,7 @@ pipeline {
         stage('Source Code') {
             steps {
                 echo 'Cloning...'
-                git branch: 'main', url: 'https://github.com/Marvel-k23/jenkins.git'
+                git branch: 'main', url: 'https://github.com/sowmiya7006/jenkins.git'
             }
         }
 
